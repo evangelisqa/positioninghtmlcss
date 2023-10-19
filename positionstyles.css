@@ -137,6 +137,7 @@ background-color: blue;
 div .yellow5{
     float:left;
     padding: 10px;
+    -ms-text-size-adjust: 1em;
 }
 .red5 { 
 width: 100%; 
