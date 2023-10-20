@@ -77,35 +77,31 @@
 .activity3{
     display: grid;
     column-gap: 50px;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     padding:10px;
 }
 .red3 {
     width: 20%;
     height: 50px;
     background-color: red;
-    grid-template-columns: auto;
 }
 
 .green3 {
-    width: 95px;
+    width: 20%;
     height: 50px;
     background-color: green;
-    grid-template-columns: auto;
 }
 
 .yellow3 {
-    width: 95px;
+    width: 20%;
     height: 50px;
     background-color: gold;
-    grid-template-columns: auto;
 }
 
 .blue3 {
     width: 20%;
     height: 50px;
     background-color: blue;
-    grid-template-columns: auto;
 }
 
 /* Activity 4 styles */
