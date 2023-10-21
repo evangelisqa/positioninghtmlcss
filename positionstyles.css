@@ -19,6 +19,7 @@
     height: 200px;
     background-color: green;
     justify-items: center;
+    gap: 20px;
 }
 
 .yellow1 {
