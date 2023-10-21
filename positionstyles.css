@@ -41,7 +41,7 @@
 .content2 {
     /*This is the parent of the activity 2 boxes. */
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 40px;
     position:relative;
     padding: 5px;
@@ -118,8 +118,8 @@
     /* This is the parent of the activity 4 boxes. */
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-area: repeat(2);
-    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items:center;
     gap: 20px;
     border: 1px solid grey;
     position: relative;
@@ -197,6 +197,7 @@ div .yellow5 {
     /* This is the parent of the activity 6 boxes. */
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2,1fr);
     justify-items: center;
     gap: 20px;
     border: 1px solid grey;
