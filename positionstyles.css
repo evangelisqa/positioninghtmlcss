@@ -151,13 +151,14 @@
     background-color: green;
     float: left;
 }
-
 .yellow5 {
     width: 100%;
     height: 75%;
     background-color: gold;
 }
-
+div .yellow5{
+    font-size: 12px;
+}
 .blue5 {
     width: 100%;
     height: 100px;
