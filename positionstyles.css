@@ -112,32 +112,48 @@
 .content4 {
     /* This is the parent of the activity 4 boxes. */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-row: 50px;
+    grid-template-columns: 50px 50px 50px 150px;
+    grid-row: 50px 50px;
     height: 400px;
+    
 }
 
 .red4 {
     width: 100%;
     height: 100px;
     background-color: red;
+    padding-bottom:400px;
+    padding-left: 100px;
+    padding-right: 50px;
 }
 .green4 {
     width: 100px;
     height: 100px;
     background-color: green;
+    padding-left: 100px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+    margin-left: 150px;
 }
-
-.yellow4 {
-    width: 100%;
-    height: 100px;
-    background-color: gold;
+.yellow4{
+   width: 100px;
+   height: 100px;
+   background-color: yellow;
+   margin-top: 150px;
+   margin-left: 100px;
+   padding-bottom: 130px;
+   padding-right: 300px;
+   padding-left: 0px;
 }
 
 .blue4 {
     width: 100px;
-    height: 100px;
+    height: 80px;
     background-color: blue;
+    margin-top:320px;
+    padding-right: 300px;
+    padding-top:100px;
+    margin-left: 50px;
 }
 
 /* Activity 5 styles */
