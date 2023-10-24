@@ -2,10 +2,6 @@
 /* Activity 1 styles */
 .content1 {
     /* This is the parent of the activity 1 boxes. */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    gap: 20px;
     justify-content: center;
     align-content: center;
     justify-items: center;
