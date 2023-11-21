@@ -1,0 +1,33 @@
+section{
+    width:50%;
+    border: 1px solid;
+}
+.block1{
+    margin-right: auto;
+    text-align: left;
+}
+.block1, .block2, .block3,
+.block4{
+    width: 50%;
+}
+.block1, .block2, .block3::first-line{
+    text-align: left;
+}
+
+
+.block4 p:nth-of-type(1){
+    text-align: right;
+}
+.block4 p:nth-of-type(2){
+    text-align: center;
+}
+.block4 p:nth-of-type(3){
+    text-align: left;
+}
+.block4 p:nth-of-type(4){
+    text-align: left;
+}
+
+
+
+
