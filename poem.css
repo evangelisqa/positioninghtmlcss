@@ -36,9 +36,8 @@ p:nth-of-type(3){
 .block4 p:nth-of-type(4){
     text-align: left;
 }
-.block1, .block2, .block3,
-.block4{
-    width: 50%;
+.block2 p:nth-of-type(3){
+    text-align: center;
 }
 
 
