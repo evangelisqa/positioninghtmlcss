@@ -38,6 +38,7 @@ p:nth-of-type(3){
 }
 .block2 p:nth-of-type(3){
     text-align: center;
+    margin-left: 10%;
 }
 
 
